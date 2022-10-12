@@ -1,4 +1,3 @@
-<a name="readme-top"></a>
 <!-- ABOUT THE PROJECT -->
 # Fine-Tuning a Sentence Transformer on Ukrainian Data
 
@@ -10,8 +9,8 @@ A crucial part of Natural Language Processing (NLP) is having access to expert-a
 
 It is necessary to support low-resource languages’ use in NLP so that these languages can be preserved and expanded digitally. Within this project, I fine-tuned a sentence transformer model on a Ukrainian dataset so as to study potential solutions for NLP with a lack of annotated data.
 
-<!-- FILES -->
-## Files
+<!-- INCLUDED -->
+## Included
 
 ### uk_en_semantic_similarity.py
 
@@ -35,11 +34,7 @@ This notebook generates a matrix of cosine similarities between each sentence in
 
 Contains a notebook version of uk_en_semantic_similarity.py.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- CONTACT -->
 ## Contact
 
 Kate Richards - [in/katemrichards](https://www.linkedin.com/in/katemrichards/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
