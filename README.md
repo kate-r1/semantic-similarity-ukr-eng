@@ -10,14 +10,12 @@ A crucial part of Natural Language Processing (NLP) is having access to expert-a
 
 It is necessary to support low-resource languages’ use in NLP so that these languages can be preserved and expanded digitally. Within this project, I fine-tuned a sentence transformer model on a Ukrainian dataset so as to study potential solutions for NLP with a lack of annotated data.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- FILES -->
 ## Files
 
 ### uk_en_semantic_similarity.py
 
-I was interested in determining the semantic similarity between Ukrainian and English sentences. The pretrained sentence transformer fine-tuned was distiluse-base-multilingual-cased-v2. It is a “multilingual knowledge distilled version of multilingual Universal Sentence Encoder”, supporting 50+ languages. <https://www.sbert.net/docs/pretrained_models.html >
+I was interested in determining the semantic similarity between Ukrainian and English sentences. The pretrained sentence transformer fine-tuned was distiluse-base-multilingual-cased-v2. It is a “[multilingual knowledge distilled version of multilingual Universal Sentence Encoder](https://www.sbert.net/docs/pretrained_models.html)”, supporting 50+ languages.
 
 #### Dealing with the absence of labelled ukr datasets
 
@@ -29,11 +27,11 @@ Since the sentences in the pairs are nearly identical I set the scores to 1 for 
 
 The evaluator used outputs the Spearman’s rank correlation between cosine similarity scores of the provided dataset and the scores calculated from the model (correlation value between 0 and 1, where: 0 = no correlation, and 1 = high correlation).
 
-## calculate_similarities.ipynb
+### calculate_similarities.ipynb
 
 This notebook generates a matrix of cosine similarities between each sentence in a given list of sentences.
 
-## ./notebook
+### ./notebook
 
 Contains a notebook version of uk_en_semantic_similarity.py.
 
